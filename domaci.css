@@ -1,0 +1,39 @@
+.mala-kartica {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238,242,255,var(--tw-bg-opacity));
+    height: 23px;
+    width: 83px;
+}
+
+p {
+    color:aqua
+}
+
+.container-fluid{
+    padding-top: 160px;
+    justify-content: space-between;
+    
+}
+
+h2 {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.learn {
+    text-align: left;
+    color: blue;
+    padding-top: 40px;
+}
+
+h4 {
+    padding-top: 15px;
+    font-size: medium;
+   
+}
+
+.col-md-6 {
+    
+    padding-top: 10px;
+   
+}
