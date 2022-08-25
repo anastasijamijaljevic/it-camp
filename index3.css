@@ -1,0 +1,16 @@
+.container  {
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    margin-left: 30%;
+ 
+    
+}
+
+.tabla {
+    height: 600px;
+    width: 600px;
+    border: 1px solid orange;
+    margin: 50px;
+}
+
