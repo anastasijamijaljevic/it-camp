@@ -1,0 +1,93 @@
+
+
+
+.container {
+    height: 600px;
+    width: 350px;
+    display: flex;
+    position: relative;
+    left: 40%;
+    top: 70px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+ 
+
+}
+
+.card1 {
+ height: 60px;
+ width: 100%;
+ border: 1px solid black;
+ border-radius: 5%;
+ position: relative;
+ left: 2px;
+ box-shadow: 2px 2px 2px 2px black;
+
+
+}
+
+.card2 {
+    height: 145px;
+    width: 200px;
+    border: 1px solid black;
+ border-radius: 5%;
+ position: relative;
+ top: -3px;
+ box-shadow: 2px 2px 2px 2px black;
+
+
+}
+.card3 {
+    height: 86px;
+    width: 200px;
+    border: 1px solid black;
+ border-radius: 5%;
+ position: relative;
+ top: -30px;
+ box-shadow: 2px 2px 2px 2px black;
+
+}
+.card4 {
+    height: 70px;
+    width: 130px;
+    border: 1px solid black;
+ border-radius: 5%;
+ position: absolute;
+ top: 20%;
+ box-shadow: 2px 2px 2px 2px black;
+ 
+
+}
+.card5 {
+    height: 70px;
+    width: 130px;
+    border: 1px solid black;
+ border-radius: 5%;
+   position: absolute;
+   top: 34%;
+   box-shadow: 2px 2px 2px 2px black;
+
+}
+.card6 {
+    height: 70px;
+    width: 130px;
+    border: 1px solid black;
+ border-radius: 5%;
+ position: absolute;
+ top: 47%;
+ box-shadow: 2px 2px 2px 2px black;
+
+
+
+
+}
+ .card7 {
+   height: 140px;
+   width: 100%;
+   border: 1px solid black;
+ border-radius: 5%;
+ position: relative;
+ left: 2px;
+ box-shadow: 2px 2px 2px 2px black;
+ }
