@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.container {
+    padding: 1rem;
+    width: 30vw;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 7fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 13fr;
+    grid-template-columns: 20fr 20fr;
+    grid-template-areas: 
+    "header header"
+    "left-one right-one"
+    "left-one right-one"
+    "left-one right-one"
+    "left-one right-two"
+    "left-one right-two"
+    "left-two right-two"
+    "left-two right-three"
+    "left-two right-three"
+    "left-two right-three"
+    "footer footer"
+    ;
+    gap: 1rem;
+}
+
+.container *{
+    border: solid 1px black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px black;
+}
+
+.header {
+    grid-area: header;
+}
+
+.left-one{
+    grid-area: left-one;
+}
+.left-two {
+    grid-area: left-two;
+}
+
+.right-one {
+    grid-area: right-one;
+}
+.right-two {
+    grid-area: right-two;
+}
+
+.right-three{
+    grid-area: right-three;
+}
+
+.footer {
+    grid-area: footer;
+}

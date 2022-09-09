@@ -1,0 +1,40 @@
+.container {
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: 2fr 14fr  1fr;
+    grid-template-columns: 2fr 15fr 1fr ;
+    border: 1px solid black;
+    grid-template-areas: 
+    "card1 card1 card1 "
+    " card2 card3 card4 "
+    "card5 card5 card5"
+    ;
+}
+
+
+.card1 {
+    background-color: aqua;
+    grid-area: card1;
+}
+
+.card2 {
+    background-color: blue;
+    grid-area: card2;
+    
+}
+
+.card3 {
+    background-color: bisque;
+    grid-area: card3;
+}
+
+.card4 {
+    background-color: blueviolet;
+    grid-area: card4;
+}
+
+.card5 {
+    background-color: brown;
+    grid-area: card5;
+}
